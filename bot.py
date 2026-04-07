@@ -57,8 +57,7 @@ async def start(message: Message, state: FSMContext):
 
     await message.answer(
         "Assalomu alaykum!\n\n"
-        "Korrupsiyaga qarshi so‘rovnomaga xush kelibsiz.\n"
-        "Ishtirokingiz maxfiy saqlanadi."
+        "Korrupsiyaga qarshi so‘rovnomaga xush kelibsiz."
     )
     await message.answer("Ismingizni kiriting:")
     await state.set_state(SurveyState.first_name)
